@@ -1,62 +1,108 @@
 {
   "projects": [
     {
-      "num": "01",
-      "badge": "Android / AI",
-      "title": "AI Chat Assistant",
-      "description": "A native Android app powered by Gemini LLM with RAG pipeline, built using Jetpack Compose and MVVM architecture.",
-      "tags": [
-        "Kotlin",
-        "Jetpack Compose",
-        "Gemini",
-        "RAG"
-      ],
-      "github": "#",
-      "live": "#"
-    },
-    {
-      "num": "02",
-      "badge": "Full Stack",
-      "title": "Spring Boot REST Platform",
-      "description": "Scalable REST API backend with Spring Boot, PostgreSQL, JWT auth, and full test coverage via JUnit & JaCoCo.",
-      "tags": [
-        "Java",
-        "Spring Boot",
-        "PostgreSQL",
-        "JUnit"
-      ],
-      "github": "#",
-      "live": "#"
-    },
-    {
-      "num": "03",
-      "badge": "AI / ML",
-      "title": "LangChain RAG Pipeline",
-      "description": "Document Q&A system using LangChain, LlamaIndex, and Ollama with vector embeddings and retrieval-augmented generation.",
-      "tags": [
-        "Python",
-        "LangChain",
-        "Ollama",
-        "LlamaIndex"
-      ],
-      "github": "#",
-      "live": "#"
-    },
-    {
-      "num": "04",
-      "badge": "React / Web",
-      "title": "React Dashboard App",
-      "description": "Full-featured web dashboard with React.js frontend, Spring Boot backend, real-time data, and responsive UI.",
-      "tags": [
-        "React.js",
-        "JavaScript",
-        "MySQL",
-        "REST API"
-      ],
-      "github": "#",
-      "live": "#"
-    }
+  "num": "01",
+  "badge": "Android / Finance",
+  "title": "Expense Tracker App",
+  "description": "A personal finance management app to track daily expenses, categorize spending, and visualize financial insights with charts. Built with clean architecture and persistent storage for real-time tracking.",
+  "tags": [
+    "Kotlin",
+    "Jetpack Compose",
+    "Room DB",
+    "MVVM",
+    "Charts"
   ],
+  "github": "#",
+  "live": "#"
+},
+{
+  "num": "02",
+  "badge": "Android / E-Commerce",
+  "title": "Instore Shopping Experience – Blibli",
+  "description": "Worked on enhancing the in-store shopping experience for Blibli’s e-commerce platform by developing and optimizing Android features for seamless product discovery, checkout flows, and performance improvements. Contributed to automation migration and improved test coverage for critical user journeys.",
+  "tags": [
+    "Kotlin",
+    "Android",
+    "Jetpack Compose",
+    "MVVM",
+    "Automation",
+    "E-Commerce"
+  ],
+  "github": "#",
+  "live": "https://www.blibli.com"
+},
+  {
+    "num": "03",
+    "badge": "Android / AI",
+    "title": "AI Deployment Insights Assistant",
+    "description": "A smart assistant that analyzes deployment data from Jira and Confluence to provide real-time insights like squad deployments, hotfix trends, and risk scoring using a hybrid ML + LLM approach.",
+    "tags": [
+      "Python",
+      "LLM",
+      "Ollama",
+      "RAG",
+      "Jira API"
+    ],
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "num": "04",
+    "badge": "Android / Backend",
+    "title": "Test Case Management System",
+    "description": "A full-stack platform to manage test cases, create test cycles, track execution status, and export reports with filtering and labeling capabilities.",
+    "tags": [
+      "React.js",
+      "Spring Boot",
+      "MySQL",
+      "REST API"
+    ],
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "num": "05",
+    "badge": "AI / Automation",
+    "title": "Automated Test Coverage Optimizer",
+    "description": "AI-powered tool that analyzes JaCoCo reports to detect untested code paths and automatically suggests and generates test cases.",
+    "tags": [
+      "Java",
+      "JaCoCo",
+      "AI",
+      "Test Automation"
+    ],
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "num": "06",
+    "badge": "Android / AI",
+    "title": "Local AI Coding IDE",
+    "description": "A custom coding IDE with integrated AI assistant using Ollama for local code suggestions, debugging, and intelligent code generation.",
+    "tags": [
+      "Kotlin",
+      "Ollama",
+      "LLM",
+      "IDE"
+    ],
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "num": "07",
+    "badge": "AI / Data",
+    "title": "RAG-Based Knowledge System",
+    "description": "A document-based Q&A system using RAG architecture to retrieve and answer queries from internal organizational data sources.",
+    "tags": [
+      "LangChain",
+      "LlamaIndex",
+      "Python",
+      "Vector DB"
+    ],
+    "github": "#",
+    "live": "#"
+  }
+],
   "techStack": [
     {
       "category": "Languages",
