@@ -1,0 +1,270 @@
+{
+  "projects": [
+    {
+      "num": "01",
+      "badge": "Android / AI",
+      "title": "AI Chat Assistant",
+      "description": "A native Android app powered by Gemini LLM with RAG pipeline, built using Jetpack Compose and MVVM architecture.",
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Gemini",
+        "RAG"
+      ],
+      "github": "#",
+      "live": "#"
+    },
+    {
+      "num": "02",
+      "badge": "Full Stack",
+      "title": "Spring Boot REST Platform",
+      "description": "Scalable REST API backend with Spring Boot, PostgreSQL, JWT auth, and full test coverage via JUnit & JaCoCo.",
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "JUnit"
+      ],
+      "github": "#",
+      "live": "#"
+    },
+    {
+      "num": "03",
+      "badge": "AI / ML",
+      "title": "LangChain RAG Pipeline",
+      "description": "Document Q&A system using LangChain, LlamaIndex, and Ollama with vector embeddings and retrieval-augmented generation.",
+      "tags": [
+        "Python",
+        "LangChain",
+        "Ollama",
+        "LlamaIndex"
+      ],
+      "github": "#",
+      "live": "#"
+    },
+    {
+      "num": "04",
+      "badge": "React / Web",
+      "title": "React Dashboard App",
+      "description": "Full-featured web dashboard with React.js frontend, Spring Boot backend, real-time data, and responsive UI.",
+      "tags": [
+        "React.js",
+        "JavaScript",
+        "MySQL",
+        "REST API"
+      ],
+      "github": "#",
+      "live": "#"
+    }
+  ],
+  "techStack": [
+    {
+      "category": "Languages",
+      "items": [
+        {
+          "name": "Kotlin",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+          "url": "https://kotlinlang.org"
+        },
+        {
+          "name": "Java",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+          "url": "https://java.com"
+        },
+        {
+          "name": "Python",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+          "url": "https://python.org"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "name": "HTML",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "name": "CSS",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "SQL",
+          "emoji": "🗄️",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "category": "Mobile",
+      "items": [
+        {
+          "name": "Android",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+          "url": "https://developer.android.com"
+        },
+        {
+          "name": "Jetpack Compose",
+          "emoji": "🎨",
+          "url": "https://developer.android.com/jetpack/compose"
+        },
+        {
+          "name": "Retrofit",
+          "emoji": "🔌",
+          "url": "https://square.github.io/retrofit/"
+        },
+        {
+          "name": "Coroutines",
+          "emoji": "⚡",
+          "url": "https://kotlinlang.org/docs/coroutines-overview.html"
+        },
+        {
+          "name": "MVVM",
+          "emoji": "🏗️",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "category": "Web & Backend",
+      "items": [
+        {
+          "name": "React",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "Spring Boot",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+          "url": "https://spring.io/projects/spring-boot"
+        },
+        {
+          "name": "MySQL",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+          "url": "https://mysql.com"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+          "url": "https://postgresql.org"
+        },
+        {
+          "name": "Firebase",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+          "url": "https://firebase.google.com"
+        }
+      ]
+    },
+    {
+      "category": "AI & ML",
+      "items": [
+        {
+          "name": "Ollama",
+          "emoji": "🦙",
+          "url": "https://ollama.com"
+        },
+        {
+          "name": "Gemini",
+          "emoji": "✦",
+          "url": "https://deepmind.google/technologies/gemini/"
+        },
+        {
+          "name": "LangChain",
+          "emoji": "🔗",
+          "url": "https://langchain.com"
+        },
+        {
+          "name": "LlamaIndex",
+          "emoji": "📚",
+          "url": "https://www.llamaindex.ai"
+        },
+        {
+          "name": "RAG",
+          "emoji": "🧠",
+          "url": "#"
+        },
+        {
+          "name": "Prompt Eng.",
+          "emoji": "💬",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "category": "Testing",
+      "items": [
+        {
+          "name": "JUnit",
+          "emoji": "✅",
+          "url": "https://junit.org"
+        },
+        {
+          "name": "Mockito",
+          "emoji": "🧪",
+          "url": "https://site.mockito.org"
+        },
+        {
+          "name": "RestAssured",
+          "emoji": "🔬",
+          "url": "https://rest-assured.io"
+        },
+        {
+          "name": "JaCoCo",
+          "emoji": "📊",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "category": "Tools & DevOps",
+      "items": [
+        {
+          "name": "Git",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+          "url": "https://git-scm.com"
+        },
+        {
+          "name": "GitHub",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+          "url": "https://github.com"
+        },
+        {
+          "name": "Docker",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+          "url": "https://docker.com"
+        },
+        {
+          "name": "VS Code",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+          "url": "https://code.visualstudio.com"
+        },
+        {
+          "name": "IntelliJ",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
+          "url": "https://www.jetbrains.com/idea/"
+        },
+        {
+          "name": "Postman",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+          "url": "https://postman.com"
+        },
+        {
+          "name": "Figma",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          "url": "https://figma.com"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "email": "saimounik.official@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sai-mounik/",
+    "github": "https://github.com/SaiMounik07",
+    "twitter": "",
+    "location": "India",
+    "availability": "Open to full-time & freelance opportunities"
+  }
+}

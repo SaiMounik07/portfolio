@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Mounik — Full Stack Developer & AI Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-name">SM</div>
+      <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+      <div class="loader-pct">0%</div>
+    </div>
+  </div>
+
+  <!-- CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#hero" class="logo">SM<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#what-i-do">Services</a></li>
+      <li><a href="#timeline">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:asaimounik@gmail.com" class="btn-resume">Hire Me →</a>
+    <button class="hamburger" id="hamburger" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mm-link">About</a>
+    <a href="#what-i-do" class="mm-link">Services</a>
+    <a href="#timeline" class="mm-link">Experience</a>
+    <a href="#projects" class="mm-link">Projects</a>
+    <a href="#stack" class="mm-link">Stack</a>
+    <a href="#contact" class="mm-link">Contact</a>
+  </div>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>FULL STACK DEVELOPER</span><span class="sep">✦</span>
+      <span>AI ENGINEER</span><span class="sep">✦</span>
+      <span>ANDROID DEVELOPER</span><span class="sep">✦</span>
+      <span>FULL STACK DEVELOPER</span><span class="sep">✦</span>
+      <span>AI ENGINEER</span><span class="sep">✦</span>
+      <span>ANDROID DEVELOPER</span><span class="sep">✦</span>
+      <span>FULL STACK DEVELOPER</span><span class="sep">✦</span>
+      <span>AI ENGINEER</span><span class="sep">✦</span>
+      <span>ANDROID DEVELOPER</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-hello">Hello! I'm</p>
+      <h1 class="hero-name" id="heroName">SAI MOUNIK</h1>
+      <div class="hero-roles">
+        <span class="role-line">An</span>
+        <div class="role-cycle">
+          <span class="role active">FULL STACK DEVELOPER</span>
+          <span class="role">AI ENGINEER</span>
+          <span class="role">ANDROID DEVELOPER</span>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#about" class="btn-primary">Explore ↓</a>
+        <a href="https://www.linkedin.com/in/sai-mounik/" target="_blank" class="btn-ghost">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </div>
+    <div class="hero-3d-card" id="hero3d">
+      <div class="card-inner">
+        <div class="card-face card-front">
+          <div class="card-avatar">SM</div>
+          <div class="card-info">
+            <h3>Sai Mounik</h3>
+            <p>Full Stack & AI Engineer</p>
+            <div class="card-tags">
+              <span>Kotlin</span><span>Python</span><span>React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-layout">
+        <div class="about-left reveal">
+          <div class="section-tag">// about me</div>
+          <h2>I build <span class="hl">intelligent</span><br/>products that matter</h2>
+          <p>I'm a Full Stack Developer and AI Engineer passionate about building scalable, intelligent solutions that solve real-world problems. With a strong foundation across frontend, backend, and mobile development, I focus on creating seamless user experiences powered by efficient systems and smart automation.</p>
+          <p>I enjoy exploring AI-driven innovations and continuously pushing boundaries to deliver impactful products.</p>
+          <div class="about-cta">
+            <a href="https://www.linkedin.com/in/sai-mounik/" target="_blank" class="btn-primary">View LinkedIn →</a>
+            <a href="mailto:asaimounik@gmail.com" class="btn-ghost">Get in Touch</a>
+          </div>
+        </div>
+        <div class="about-right reveal">
+          <div class="about-card-3d" id="aboutCard">
+            <div class="ac-inner">
+              <div class="ac-badge">Available for work</div>
+              <div class="ac-avatar">SM</div>
+              <h3>Sai Mounik</h3>
+              <p>Full Stack Developer / AI Engineer</p>
+              <div class="ac-stats">
+                <div class="ac-stat"><span class="ac-num">3+</span><span>Years Coding</span></div>
+                <div class="ac-stat"><span class="ac-num">10+</span><span>Projects</span></div>
+                <div class="ac-stat"><span class="ac-num">5+</span><span>Tech Stacks</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT I DO -->
+  <section id="what-i-do">
+    <div class="container">
+      <div class="section-tag reveal">// what i do</div>
+      <h2 class="section-title reveal">My <span class="hl">Expertise</span></h2>
+      <div class="services-grid">
+
+        <div class="service-card reveal" data-delay="0">
+          <div class="sc-number">01</div>
+          <div class="sc-icon">📱</div>
+          <h3>Mobile Development</h3>
+          <p>Building native Android apps with Jetpack Compose and XML. MVVM, Clean Architecture, Retrofit, Coroutines & Flow.</p>
+          <div class="sc-tags">
+            <span>Kotlin</span><span>Jetpack Compose</span><span>MVVM</span><span>Retrofit</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal" data-delay="1">
+          <div class="sc-number">02</div>
+          <div class="sc-icon">🌐</div>
+          <h3>Full Stack Web</h3>
+          <p>End-to-end web apps with React on the frontend and Spring Boot on the backend, backed by MySQL & PostgreSQL.</p>
+          <div class="sc-tags">
+            <span>React.js</span><span>Spring Boot</span><span>MySQL</span><span>REST APIs</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal" data-delay="2">
+          <div class="sc-number">03</div>
+          <div class="sc-icon">🤖</div>
+          <h3>AI Engineering</h3>
+          <p>LLM integration, RAG pipelines, prompt engineering, and AI-powered automation using Ollama, Gemini, LangChain.</p>
+          <div class="sc-tags">
+            <span>LLMs</span><span>RAG</span><span>LangChain</span><span>Gemini</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline">
+    <div class="container">
+      <div class="section-tag reveal">// experience</div>
+      <h2 class="section-title reveal">My <span class="hl">Journey</span></h2>
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-year">NOW</div>
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-badge">AI Engineering</span>
+            <h3>Full Stack + AI Engineer</h3>
+            <p>Building intelligent systems, LLM-powered apps, and scalable full-stack solutions. Exploring RAG, prompt engineering, and AI automation.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-year">2024</div>
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-badge">Mobile Dev</span>
+            <h3>Android Developer</h3>
+            <p>Developed production-grade Android apps using Jetpack Compose, MVVM architecture, and REST API integration with Retrofit.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-year">2023</div>
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-badge">Backend</span>
+            <h3>Spring Boot Developer</h3>
+            <p>Built RESTful APIs and backend services with Spring Boot, Java, and relational databases. Implemented unit testing with JUnit & Mockito.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-year">2022</div>
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-badge">Frontend</span>
+            <h3>Frontend Developer</h3>
+            <p>Started building responsive UIs with React.js, HTML, CSS, and JavaScript. Developed a passion for clean, user-focused design.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-tag reveal">// projects</div>
+      <h2 class="section-title reveal">Featured <span class="hl">Work</span></h2>
+      <div class="projects-grid" id="projectsGrid">
+        <!-- rendered from data.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section id="stack">
+    <div class="stack-bg">
+      <div class="stack-orb stack-orb1"></div>
+      <div class="stack-orb stack-orb2"></div>
+    </div>
+    <div class="container">
+      <div class="section-tag reveal" style="text-align:center">// tech stack</div>
+      <h2 class="stack-big-title reveal">TECH STACK</h2>
+      <div class="tech-grid reveal" id="techGrid">
+        <!-- rendered from data.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrap reveal">
+        <div class="section-tag">// contact</div>
+        <h2 class="section-title">Let's <span class="hl">Connect</span></h2>
+        <p class="contact-sub" id="contactAvailability"><!-- from data.json --></p>
+
+        <a id="contactEmail" href="#" class="contact-email"><!-- from data.json --></a>
+
+        <div class="contact-cards-row" id="contactCards">
+          <!-- rendered from data.json -->
+        </div>
+
+        <div class="contact-location" id="contactLocation">
+          <!-- from data.json -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">SM<span>.</span></span>
+      <p>Designed & built by <span class="hl">Sai Mounik</span> · 2025</p>
+      <div class="footer-links">
+        <a href="#hero">Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
