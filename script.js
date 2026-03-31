@@ -131,24 +131,39 @@ if (heroName) {
 const FALLBACK_DATA = {
   "projects": [
     {
-      "num": "01", "badge": "Android / AI", "title": "AI Chat Assistant",
-      "description": "A native Android app powered by Gemini LLM with RAG pipeline, built using Jetpack Compose and MVVM architecture.",
-      "tags": ["Kotlin", "Jetpack Compose", "Gemini", "RAG"], "github": "#", "live": "#"
+      "num": "01", "badge": "Android / Finance", "title": "Expense Tracker App",
+      "description": "A personal finance management app to track daily expenses, categorize spending, and visualize financial insights with charts.",
+      "tags": ["Kotlin", "Jetpack Compose", "Room DB", "MVVM", "Charts"], "github": "#", "live": "#"
     },
     {
-      "num": "02", "badge": "Full Stack", "title": "Spring Boot REST Platform",
-      "description": "Scalable REST API backend with Spring Boot, PostgreSQL, JWT auth, and full test coverage via JUnit & JaCoCo.",
-      "tags": ["Java", "Spring Boot", "PostgreSQL", "JUnit"], "github": "#", "live": "#"
+      "num": "02", "badge": "Android / E-Commerce", "title": "Instore Shopping Experience – Blibli",
+      "description": "Enhanced in-store shopping experience for Blibli's e-commerce platform — Android features for product discovery, checkout flows, and performance improvements.",
+      "tags": ["Kotlin", "Android", "Jetpack Compose", "MVVM", "Automation", "E-Commerce"], "github": "#", "live": "https://www.blibli.com"
     },
     {
-      "num": "03", "badge": "AI / ML", "title": "LangChain RAG Pipeline",
-      "description": "Document Q&A system using LangChain, LlamaIndex, and Ollama with vector embeddings and retrieval-augmented generation.",
-      "tags": ["Python", "LangChain", "Ollama", "LlamaIndex"], "github": "#", "live": "#"
+      "num": "03", "badge": "Android / AI", "title": "AI Deployment Insights Assistant",
+      "description": "Smart assistant that analyzes deployment data from Jira and Confluence to provide real-time insights using a hybrid ML + LLM approach.",
+      "tags": ["Python", "LLM", "Ollama", "RAG", "Jira API"], "github": "#", "live": "#"
     },
     {
-      "num": "04", "badge": "React / Web", "title": "React Dashboard App",
-      "description": "Full-featured web dashboard with React.js frontend, Spring Boot backend, real-time data, and responsive UI.",
-      "tags": ["React.js", "JavaScript", "MySQL", "REST API"], "github": "#", "live": "#"
+      "num": "04", "badge": "Android / Backend", "title": "Test Case Management System",
+      "description": "Full-stack platform to manage test cases, create test cycles, track execution status, and export reports with filtering and labeling.",
+      "tags": ["React.js", "Spring Boot", "MySQL", "REST API"], "github": "#", "live": "#"
+    },
+    {
+      "num": "05", "badge": "AI / Automation", "title": "Automated Test Coverage Optimizer",
+      "description": "AI-powered tool that analyzes JaCoCo reports to detect untested code paths and automatically suggests and generates test cases.",
+      "tags": ["Java", "JaCoCo", "AI", "Test Automation"], "github": "#", "live": "#"
+    },
+    {
+      "num": "06", "badge": "Android / AI", "title": "Local AI Coding IDE",
+      "description": "A custom coding IDE with integrated AI assistant using Ollama for local code suggestions, debugging, and intelligent code generation.",
+      "tags": ["Kotlin", "Ollama", "LLM", "IDE"], "github": "#", "live": "#"
+    },
+    {
+      "num": "07", "badge": "AI / Data", "title": "RAG-Based Knowledge System",
+      "description": "A document-based Q&A system using RAG architecture to retrieve and answer queries from internal organizational data sources.",
+      "tags": ["LangChain", "LlamaIndex", "Python", "Vector DB"], "github": "#", "live": "#"
     }
   ],
   "techStack": [
@@ -169,11 +184,11 @@ const FALLBACK_DATA = {
       { "name": "MVVM",            "emoji": "🏗️", "url": "#" }
     ]},
     { "category": "Web & Backend", "items": [
-      { "name": "React",       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",            "url": "https://react.dev" },
-      { "name": "Spring Boot", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",          "url": "https://spring.io/projects/spring-boot" },
-      { "name": "MySQL",       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",            "url": "https://mysql.com" },
-      { "name": "PostgreSQL",  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",  "url": "https://postgresql.org" },
-      { "name": "Firebase",    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",         "url": "https://firebase.google.com" }
+      { "name": "React",       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",           "url": "https://react.dev" },
+      { "name": "Spring Boot", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",         "url": "https://spring.io/projects/spring-boot" },
+      { "name": "MySQL",       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",           "url": "https://mysql.com" },
+      { "name": "PostgreSQL",  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg", "url": "https://postgresql.org" },
+      { "name": "Firebase",    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",        "url": "https://firebase.google.com" }
     ]},
     { "category": "AI & ML", "items": [
       { "name": "Ollama",      "emoji": "🦙", "url": "https://ollama.com" },
@@ -190,19 +205,27 @@ const FALLBACK_DATA = {
       { "name": "JaCoCo",      "emoji": "📊", "url": "#" }
     ]},
     { "category": "Tools & DevOps", "items": [
-      { "name": "Git",      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",         "url": "https://git-scm.com" },
-      { "name": "GitHub",   "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",   "url": "https://github.com" },
-      { "name": "Docker",   "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",   "url": "https://docker.com" },
-      { "name": "VS Code",  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",   "url": "https://code.visualstudio.com" },
+      { "name": "Git",      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",          "url": "https://git-scm.com" },
+      { "name": "GitHub",   "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",    "url": "https://github.com" },
+      { "name": "Docker",   "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",    "url": "https://docker.com" },
+      { "name": "VS Code",  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",    "url": "https://code.visualstudio.com" },
       { "name": "IntelliJ", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg","url": "https://www.jetbrains.com/idea/" },
-      { "name": "Postman",  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg", "url": "https://postman.com" },
-      { "name": "Figma",    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",     "url": "https://figma.com" }
+      { "name": "Postman",  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",  "url": "https://postman.com" },
+      { "name": "Figma",    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",      "url": "https://figma.com" }
     ]}
   ],
+  "achievements": [
+    { "icon": "🎤", "title": "Speaker at Java Fest",           "desc": "Shared knowledge and experiences at Java Fest, representing the developer community.",                                          "tag": "Public Speaking"   },
+    { "icon": "👨‍🏫", "title": "Mentored 600+ Students",        "desc": "Guided students across various departments on programming, career paths, and tech fundamentals.",                               "tag": "Mentorship"        },
+    { "icon": "🏢", "title": "Office Tech Sessions",           "desc": "Conducted internal technical sessions at the workplace, contributing to team learning and upskilling.",                         "tag": "Knowledge Sharing" },
+    { "icon": "📦", "title": "Published Python Package on PyPI","desc": "Built and released a Python package to PyPI — my first open-source contribution to the community.",                           "tag": "Open Source"       },
+    { "icon": "🤝", "title": "TN JUG Representative",          "desc": "Organizing and representing Tamil Nadu Java User Group (TN JUG), driving tech events and community growth.",                   "tag": "Community"         },
+    { "icon": "🌊", "title": "PADI Open Water Diver",          "desc": "Certified PADI Open Water Diver — because the best engineers explore beyond the screen too.",                                   "tag": "Certified"         }
+  ],
   "contact": {
-    "email": "asaimounik@gmail.com",
+    "email": "saimounik.official@gmail.com",
     "linkedin": "https://www.linkedin.com/in/sai-mounik/",
-    "github": "https://github.com/",
+    "github": "https://github.com/SaiMounik07",
     "twitter": "",
     "location": "India",
     "availability": "Open to full-time & freelance opportunities"
@@ -212,9 +235,13 @@ const FALLBACK_DATA = {
 function initWithData(data) {
   renderProjects(data.projects);
   renderTechStack(data.techStack);
+  renderAchievements(data.achievements);
   renderContact(data.contact);
-  observeReveal();
-  attachCursorHover('.tech-item, .proj-card, .contact-social-card');
+  // Small timeout ensures DOM is fully painted before observing
+  setTimeout(() => {
+    observeReveal();
+    attachCursorHover('.tech-item, .proj-card, .contact-social-card, .ach-card');
+  }, 50);
 }
 
 // Try fetch first (works on a server), fall back to inline data
@@ -222,6 +249,22 @@ fetch('data.json')
   .then(r => { if (!r.ok) throw new Error(); return r.json(); })
   .then(data => initWithData(data))
   .catch(() => initWithData(FALLBACK_DATA));
+
+/* ----- ACHIEVEMENTS ----- */
+function renderAchievements(achievements) {
+  const grid = document.getElementById('achGrid');
+  if (!grid || !achievements) return;
+  grid.innerHTML = achievements.map((a, i) => `
+    <div class="ach-card reveal" data-delay="${i % 3}">
+      <div class="ach-top">
+        <span class="ach-icon">${a.icon}</span>
+        <span class="ach-tag">${a.tag}</span>
+      </div>
+      <h3>${a.title}</h3>
+      <p>${a.desc}</p>
+    </div>
+  `).join('');
+}
 
 /* ----- PROJECTS ----- */
 function renderProjects(projects) {
@@ -280,10 +323,10 @@ function renderContact(c) {
   const cards = document.getElementById('contactCards');
   if (cards) {
     const socials = [
-      c.email    && { icon: 'fas fa-envelope',  label: 'Email',    href: `mailto:${c.email}`,  value: c.email },
-      c.linkedin && { icon: 'fab fa-linkedin',  label: 'LinkedIn', href: c.linkedin,            value: 'linkedin.com/in/sai-mounik' },
-      c.github   && { icon: 'fab fa-github',    label: 'GitHub',   href: c.github,              value: 'github.com/saimounik' },
-      c.twitter  && { icon: 'fab fa-twitter',   label: 'Twitter',  href: c.twitter,             value: '@saimounik' },
+      c.email    && { icon: 'fas fa-envelope', label: 'Email',    href: `mailto:${c.email}`, value: c.email },
+      c.linkedin && { icon: 'fab fa-linkedin', label: 'LinkedIn', href: c.linkedin,           value: c.linkedin.replace('https://www.','').replace('https://','') },
+      c.github   && { icon: 'fab fa-github',   label: 'GitHub',   href: c.github,             value: c.github.replace('https://','') },
+      c.twitter  && { icon: 'fab fa-twitter',  label: 'Twitter',  href: c.twitter,            value: c.twitter.replace('https://twitter.com/','@').replace('https://x.com/','@') },
     ].filter(Boolean);
 
     cards.innerHTML = socials.map(s => `
