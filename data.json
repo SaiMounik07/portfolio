@@ -1,108 +1,108 @@
 {
   "projects": [
     {
-  "num": "01",
-  "badge": "Android / Finance",
-  "title": "Expense Tracker App",
-  "description": "A personal finance management app to track daily expenses, categorize spending, and visualize financial insights with charts. Built with clean architecture and persistent storage for real-time tracking.",
-  "tags": [
-    "Kotlin",
-    "Jetpack Compose",
-    "Room DB",
-    "MVVM",
-    "Charts"
+      "num": "01",
+      "badge": "Android / Finance",
+      "title": "Expense Tracker App",
+      "description": "A personal finance management app to track daily expenses, categorize spending, and visualize financial insights with charts. Built with clean architecture and persistent storage for real-time tracking.",
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Room DB",
+        "MVVM",
+        "Charts"
+      ],
+      "github": "#",
+      "live": "#"
+    },
+    {
+      "num": "02",
+      "badge": "Android / E-Commerce",
+      "title": "Instore Shopping Experience – Blibli",
+      "description": "Worked on enhancing the in-store shopping experience for Blibli’s e-commerce platform by developing and optimizing Android features for seamless product discovery, checkout flows, and performance improvements. Contributed to automation migration and improved test coverage for critical user journeys.",
+      "tags": [
+        "Kotlin",
+        "Android",
+        "Jetpack Compose",
+        "MVVM",
+        "Automation",
+        "E-Commerce"
+      ],
+      "github": "#",
+      "live": "https://www.blibli.com"
+    },
+    {
+      "num": "03",
+      "badge": "Android / AI",
+      "title": "AI Deployment Insights Assistant",
+      "description": "A smart assistant that analyzes deployment data from Jira and Confluence to provide real-time insights like squad deployments, hotfix trends, and risk scoring using a hybrid ML + LLM approach.",
+      "tags": [
+        "Python",
+        "LLM",
+        "Ollama",
+        "RAG",
+        "Jira API"
+      ],
+      "github": "#",
+      "live": "#"
+    },
+    {
+      "num": "04",
+      "badge": "Android / Backend",
+      "title": "Test Case Management System",
+      "description": "A full-stack platform to manage test cases, create test cycles, track execution status, and export reports with filtering and labeling capabilities.",
+      "tags": [
+        "React.js",
+        "Spring Boot",
+        "MySQL",
+        "REST API"
+      ],
+      "github": "#",
+      "live": "#"
+    },
+    {
+      "num": "05",
+      "badge": "AI / Automation",
+      "title": "Automated Test Coverage Optimizer",
+      "description": "AI-powered tool that analyzes JaCoCo reports to detect untested code paths and automatically suggests and generates test cases.",
+      "tags": [
+        "Java",
+        "JaCoCo",
+        "AI",
+        "Test Automation"
+      ],
+      "github": "#",
+      "live": "#"
+    },
+    {
+      "num": "06",
+      "badge": "Android / AI",
+      "title": "Local AI Coding IDE",
+      "description": "A custom coding IDE with integrated AI assistant using Ollama for local code suggestions, debugging, and intelligent code generation.",
+      "tags": [
+        "Kotlin",
+        "Ollama",
+        "LLM",
+        "IDE"
+      ],
+      "github": "#",
+      "live": "#"
+    },
+    {
+      "num": "07",
+      "badge": "AI / Data",
+      "title": "RAG-Based Knowledge System",
+      "description": "A document-based Q&A system using RAG architecture to retrieve and answer queries from internal organizational data sources.",
+      "tags": [
+        "LangChain",
+        "LlamaIndex",
+        "Python",
+        "Vector DB"
+      ],
+      "github": "#",
+      "live": "#"
+    }
   ],
-  "github": "#",
-  "live": "https://finolog-tracker.web.app/"
-},
-{
-  "num": "02",
-  "badge": "Android / E-Commerce",
-  "title": "Instore Shopping Experience – Blibli",
-  "description": "Worked on enhancing the in-store shopping experience for Blibli’s e-commerce platform by developing and optimizing Android features for seamless product discovery, checkout flows, and performance improvements. Contributed to automation migration and improved test coverage for critical user journeys.",
-  "tags": [
-    "Kotlin",
-    "Android",
-    "Jetpack Compose",
-    "MVVM",
-    "Automation",
-    "E-Commerce"
-  ],
-  "github": "#",
-  "live": "https://www.blibli.com"
-},
-  {
-    "num": "03",
-    "badge": "Android / AI",
-    "title": "AI Deployment Insights Assistant",
-    "description": "A smart assistant that analyzes deployment data from Jira and Confluence to provide real-time insights like squad deployments, hotfix trends, and risk scoring using a hybrid ML + LLM approach.",
-    "tags": [
-      "Python",
-      "LLM",
-      "Ollama",
-      "RAG",
-      "Jira API"
-    ],
-    "github": "#",
-    "live": "#"
-  },
-  {
-    "num": "04",
-    "badge": "Android / Backend",
-    "title": "Test Case Management System",
-    "description": "A full-stack platform to manage test cases, create test cycles, track execution status, and export reports with filtering and labeling capabilities.",
-    "tags": [
-      "React.js",
-      "Spring Boot",
-      "MySQL",
-      "REST API"
-    ],
-    "github": "#",
-    "live": "#"
-  },
-  {
-    "num": "05",
-    "badge": "AI / Automation",
-    "title": "Automated Test Coverage Optimizer",
-    "description": "AI-powered tool that analyzes JaCoCo reports to detect untested code paths and automatically suggests and generates test cases.",
-    "tags": [
-      "Java",
-      "JaCoCo",
-      "AI",
-      "Test Automation"
-    ],
-    "github": "#",
-    "live": "#"
-  },
-  {
-    "num": "06",
-    "badge": "Android / AI",
-    "title": "Local AI Coding IDE",
-    "description": "A custom coding IDE with integrated AI assistant using Ollama for local code suggestions, debugging, and intelligent code generation.",
-    "tags": [
-      "Kotlin",
-      "Ollama",
-      "LLM",
-      "IDE"
-    ],
-    "github": "#",
-    "live": "#"
-  },
-  {
-    "num": "07",
-    "badge": "AI / Data",
-    "title": "RAG-Based Knowledge System",
-    "description": "A document-based Q&A system using RAG architecture to retrieve and answer queries from internal organizational data sources.",
-    "tags": [
-      "LangChain",
-      "LlamaIndex",
-      "Python",
-      "Vector DB"
-    ],
-    "github": "#",
-    "live": "#"
-  }
-],
   "techStack": [
     {
       "category": "Languages",
@@ -303,6 +303,44 @@
           "url": "https://figma.com"
         }
       ]
+    }
+  ],
+  "achievements": [
+    {
+      "icon": "🎤",
+      "title": "Speaker at Java Fest",
+      "desc": "Shared knowledge and experiences at Java Fest, representing the developer community.",
+      "tag": "Public Speaking"
+    },
+    {
+      "icon": "👨‍🏫",
+      "title": "Mentored 600+ Students",
+      "desc": "Guided students across various departments on programming, career paths, and tech fundamentals.",
+      "tag": "Mentorship"
+    },
+    {
+      "icon": "🏢",
+      "title": "Office Tech Sessions",
+      "desc": "Conducted internal technical sessions at the workplace, contributing to team learning and upskilling.",
+      "tag": "Knowledge Sharing"
+    },
+    {
+      "icon": "📦",
+      "title": "Published Python Package on PyPI",
+      "desc": "Built and released a Python package to PyPI — my first open-source contribution to the community.",
+      "tag": "Open Source"
+    },
+    {
+      "icon": "🤝",
+      "title": "TN JUG Representative",
+      "desc": "Organizing and representing Tamil Nadu Java User Group (TN JUG), driving tech events and community growth.",
+      "tag": "Community"
+    },
+    {
+      "icon": "🌊",
+      "title": "PADI Open Water Diver",
+      "desc": "Certified PADI Open Water Diver — because the best engineers explore beyond the screen too.",
+      "tag": "Certified"
     }
   ],
   "contact": {
